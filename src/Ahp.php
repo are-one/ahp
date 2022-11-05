@@ -103,7 +103,6 @@ class Ahp
             'total_kolom' => $total_kolom
         ];
 
-
     }
 
     public function set_nilai_matriks_kriteria($matrik_perbandingan, $total_kolom)
