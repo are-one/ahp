@@ -9,7 +9,7 @@ class Ahp
     public $matriks;
     public $jumlah_kolom;
 
-    public function __construct($kriteria, $sub_kriteria)
+    public function __construct($kriteria, $sub_kriteria = [])
     {
         $this->kriteria = $kriteria; 
         $this->sub_kriteria = $sub_kriteria;
