@@ -76,7 +76,8 @@ class Ahp
                                         ? 
                                     $data_nilai[$kode_baris][$kode_kolom] 
                                         : 
-                                    round(1 / $data_nilai[$kode_kolom][$kode_baris], 2);
+                                    ( ($data_nilai[$kode_baris][$kode_kolom] == 0)? 0 :
+                                    round(1 / $data_nilai[$kode_kolom][$kode_baris], 2));
 
                     $matriks_baru[$kode_baris][$kode_kolom] = $nilai_baru;
                 }
